@@ -1,21 +1,17 @@
 # Tableau-Project-One
 
-# Prism Insurance Pvt. Ltd.
-The dashboard from Prism Insurance Pvt. Ltd. represents a rich visualization of insurance operations powered by a dataset stored and processed in Microsoft SQL Server. Various operations such as data filtering, aggregation, and categorization were performed on this dataset using SQL queries, and the cleaned results were then visualized to present key performance metrics and customer insights.
+# Student Depression Analysis
 
-At the top level, the dashboard showcases three vital metrics: the total premium amount collected stands at ₹5.98 million, the coverage amount totals ₹600.55 million, and the total amount claimed is ₹16.91 million. These figures give an immediate sense of the financial scale of the business.
+The dashboard you've shared presents an insightful analysis of various factors affecting students, particularly focusing on their academic experience and well-being. It visualizes the relationship between several key variables—Sleep Duration (SD), Study Hours (SH), Study Satisfaction (SS), Academic Pressure (AP), and Financial Stress (FS)—with the corresponding Student Count (SC) for each category.
 
-From a demographic perspective, the insurance customer base is almost perfectly balanced in gender, with 5,003 male and 5,001 female customers. This suggests the company has achieved gender equity in outreach or policy adoption. A donut chart illustrates the policy activity status, showing that 58.13% of the policies are active, while 41.87% are inactive. This highlights that although a majority of policies are maintained, a significant number have become dormant or expired, pointing toward opportunities for re-engagement.
+The Sleep Duration & Student Count section uses bubble charts to show how many students fall into each category of sleep duration. The size and repetition of values indicate consistent sleep durations among student groups, with 123 and 128 students falling into specific categories.
 
-The premium amount distribution by policy type reveals that travel insurance is the highest contributor at ₹2.5 million. It is followed by health insurance at ₹1.2 million and auto insurance at ₹1.0 million. Smaller contributions come from life and home insurance at ₹0.7 million and ₹0.6 million respectively. This pattern indicates a customer preference or business focus on travel-related coverage, which may have higher risk and thus higher premiums.
+The Study Hours & Student Count area is depicted with a line graph, reflecting variation in student numbers across different study hour ranges. This visualization reveals fluctuations in study behavior, with student count peaking at 53 and dipping to as low as 29.
 
-The claim amount by age group further breaks down the data, with adults accounting for the highest claim amount at ₹8.8 million, followed by elders with ₹6.4 million and young adults at ₹1.7 million. This suggests that adults are the primary insurance claimants, potentially due to higher activity levels and risk exposure.
+The Study Satisfaction & Student Count section uses bar charts to show how student satisfaction (ranked from SS 1 to SS 5) correlates with the number of students. Notably, Study Satisfaction level 4 has the highest count (116 students), suggesting that most students rated their satisfaction around this level.
 
-Another key insight comes from the claim status distribution, where 4.4K claims were rejected, 3.4K were settled, and 2.3K remain pending. Rejections outnumber both pending and settled claims, indicating potential issues in policy terms, customer understanding, or claim processing efficiency.
+The Academic Pressure & Student Count chart is represented with square markers, showing how different levels of academic pressure affect student distribution. The largest group (125 students) reported an academic pressure level of 3, indicating a mid-range pressure being most common.
 
-A detailed bar and table view displays how different policy types perform in terms of claim outcomes. For instance, health and travel policies show high volumes in all categories — pending, rejected, and settled. Specifically, travel policies face the most rejections, hinting at either stringent claim requirements or a higher rate of unverifiable claims.
+Lastly, the Financial Stress & Student Count section uses circular markers to highlight how financial stress is distributed among students. Stress levels are relatively evenly spread, but FS 1 (lowest stress) has the highest number of students (110), implying a slight tilt toward lower perceived financial pressure.
 
-All these insights are driven by backend SQL operations, where data was queried, grouped, filtered, and processed using SQL Server functions. This backend processing ensured efficient performance and accurate data representation in the visual layer of the dashboard.
-
-In summary, this dashboard not only offers an at-a-glance view of Prism Insurance’s operations but also demonstrates the power of integrating SQL Server-based data processing with dynamic visualization tools. The insights can inform strategic decisions on policy development, risk management, customer engagement, and claims processing.
-
+Overall, this dashboard provides a well-rounded overview of student life, linking academic habits and external pressures to satisfaction and well-being. It’s valuable for identifying stress points and areas that may require institutional support or intervention.
